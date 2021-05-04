@@ -71,7 +71,7 @@ nav {
 }
 
 .header__link--hover:hover {
-	color: #FC6A0F !important; 
+	color: #FC6A0F !important;
 }
 
 .header__link--hover:active {
@@ -125,7 +125,7 @@ nav {
 	font-weight: 900;
 	text-align: left;
 	color: #FC6A0F;
-} 
+}
 
 .first__imagenNotebook {
 	width: 852px;
@@ -285,7 +285,7 @@ footer {
 	justify-content: center;
 	border-top:  1px solid;
 	border-bottom: 1px solid;
-} 
+}
 
 .footer__item {
 	padding-right: 70px;
@@ -311,7 +311,7 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	font-size: 12px;
-} 
+}
 
 
 
@@ -457,7 +457,7 @@ footer {
 .login__logo {
 	grid-row-start: 2;
 	grid-column-start: 2;
-} 
+}
 
 .login__cardContainer {
 	grid-row-start: 3;
@@ -507,7 +507,7 @@ footer {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-} 
+}
 
 .login__forgetPassword {
 	margin-top: 0;
@@ -628,7 +628,7 @@ footer {
 		text-align: center;
 		margin-top: 20px;
 
-	} 
+	}
 
 	p {
 		text-align: center;
@@ -705,15 +705,33 @@ footer {
 
 	.fourth__text {
 		margin-top: 100px;
-		padding: 0;
+		padding: 20px;
 	}
+
+  .free__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .free__input {
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 13px;
+    border: 1px solid #E6E6E6;
+    border-radius: 2px;
+    margin: 10px 10px;
+  }
 
 
 }
 
 @media (max-width: 768px) {
 
+  .header__demoGratis {
+    margin-left: 95px;
 
+  }
 
 	.footer__rrss {
 		display: flex;
