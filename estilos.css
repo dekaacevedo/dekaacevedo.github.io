@@ -119,6 +119,14 @@ nav {
 	margin-top: 70px;
 }
 
+.first_overTitle {
+    color: black;
+  text-align: left;
+  font-size: 27px;
+  font-weight: normal;
+
+}
+
 .first__title {
 	font-size: 41px;
 	text-transform: uppercase;
@@ -705,35 +713,15 @@ footer {
 
 	.fourth__text {
 		margin-top: 100px;
-		padding: 20px;
+		padding: 0;
 	}
-
-  .free__form {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .free__input {
-    width: 280px;
-    height: 40px;
-    padding-left: 20px;
-    font-size: 13px;
-    border: 1px solid #E6E6E6;
-    border-radius: 2px;
-    margin: 10px 10px;
-  }
 
 
 }
 
-
-
 @media (max-width: 768px) {
 
-  .header__demoGratis {
-    margin-left: 95px;
 
-  }
 
 	.footer__rrss {
 		display: flex;
